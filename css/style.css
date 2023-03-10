@@ -1,6 +1,22 @@
+@font-face {
+    font-family: minhaFont;
+    src: url(../TT\ Smalls\ Trial\ ExtraBold\ Italic.otf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../BebasNeue-Regular.ttf);
+}
+
 body{
+    font-family: font2;
     background-image: url(../img/pexels-karolina-grabowska-4862892.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    color: rgb(46, 94, 139);
 }
+
+h1{
+    font-family: minhaFont;
+}
+
